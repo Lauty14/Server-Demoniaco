@@ -1,0 +1,17 @@
+{
+  "sptwTimeStopDuration": 35,
+  "twTimeStopDuration": 80,
+  "stwTimeStopDuration": 50,
+  "twohTimeStopDuration": 100,
+  "mihTimeAccelerationDuration": 300,
+  "killVampirism": false,
+  "damageScalingMinimum": 0.4,
+  "scalingPenaltyPerHit": 0.02,
+  "enableMoveCooldowns": true,
+  "cooldownMultiplier": 1.0,
+  "enableIPS": false,
+  "enableFriendlyFire": true,
+  "reduceDeadlyExplosions": true,
+  "disableCombatElytra": true,
+  "miningBarrage": true
+}
