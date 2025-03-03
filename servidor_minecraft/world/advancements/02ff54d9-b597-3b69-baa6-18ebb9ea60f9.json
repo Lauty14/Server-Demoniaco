@@ -1545,7 +1545,8 @@
   },
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
-      "sweet_berries": "2025-03-03 00:37:14 +0000"
+      "sweet_berries": "2025-03-03 00:37:14 +0000",
+      "nether_wart": "2025-03-03 20:16:53 +0000"
     },
     "done": false
   },
@@ -6753,6 +6754,12 @@
   "minecraft:recipes/brewing/blaze_powder": {
     "criteria": {
       "has_blaze_rod": "2025-03-03 20:07:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "nether_wart": "2025-03-03 20:16:53 +0000"
     },
     "done": true
   },
