@@ -77,6 +77,7 @@
       "minecraft:birch_forest": "2025-03-03 02:32:54 +0000",
       "minecraft:beach": "2025-03-03 00:33:41 +0000",
       "minecraft:river": "2025-03-03 00:34:12 +0000",
+      "minecraft:lukewarm_ocean": "2025-03-03 07:48:07 +0000",
       "minecraft:stony_shore": "2025-03-03 03:59:24 +0000",
       "minecraft:grove": "2025-03-03 05:33:21 +0000",
       "minecraft:cold_ocean": "2025-03-03 03:09:25 +0000",
@@ -2698,7 +2699,8 @@
       "minecraft:skeleton": "2025-03-03 01:17:10 +0000",
       "minecraft:vindicator": "2025-03-03 02:21:55 +0000",
       "minecraft:creeper": "2025-03-03 03:48:09 +0000",
-      "minecraft:zombie": "2025-03-03 00:46:03 +0000"
+      "minecraft:zombie": "2025-03-03 00:46:03 +0000",
+      "minecraft:drowned": "2025-03-03 07:27:02 +0000"
     },
     "done": false
   },
@@ -3645,6 +3647,7 @@
       "redwood_forest": "2025-03-03 03:54:42 +0000",
       "seasonal_orchard": "2025-03-03 02:19:07 +0000",
       "seasonal_forest": "2025-03-03 01:19:14 +0000",
+      "volcanic_plains": "2025-03-03 07:46:47 +0000",
       "lavender_field": "2025-03-03 02:28:39 +0000",
       "fir_clearing": "2025-03-03 01:14:52 +0000",
       "pumpkin_patch": "2025-03-03 02:26:55 +0000",
@@ -3703,10 +3706,12 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_beef": "2025-03-03 07:14:05 +0000",
       "beef": "2025-03-03 01:20:11 +0000",
       "porkchop": "2025-03-03 02:32:20 +0000",
       "mutton": "2025-03-03 01:17:58 +0000",
       "bread": "2025-03-03 01:39:40 +0000",
+      "rotten_flesh": "2025-03-03 07:00:07 +0000",
       "salmon": "2025-03-03 01:40:39 +0000",
       "mushroom_stew": "2025-03-03 03:45:05 +0000",
       "carrot": "2025-03-03 03:05:35 +0000"
@@ -5148,6 +5153,24 @@
     },
     "done": true
   },
+  "mcwfurnitures:recipes/birch": {
+    "criteria": {
+      "has_wood": "2025-03-03 05:35:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2025-03-03 05:35:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2025-03-03 05:35:33 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/birch_crate": {
     "criteria": {
       "has_birch_planks": "2025-03-03 05:35:38 +0000"
@@ -5190,12 +5213,6 @@
     },
     "done": true
   },
-  "mcwfurnitures:recipes/birch": {
-    "criteria": {
-      "has_wood": "2025-03-03 05:35:33 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/birch_kitchen_drawer": {
     "criteria": {
       "has_birch_planks": "2025-03-03 05:35:38 +0000"
@@ -5205,12 +5222,6 @@
   "minecraft:recipes/decorations/birch_sign": {
     "criteria": {
       "has_planks": "2025-03-03 05:35:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/birch_wood": {
-    "criteria": {
-      "has_log": "2025-03-03 05:35:33 +0000"
     },
     "done": true
   },
@@ -5253,12 +5264,6 @@
   "handcrafted:recipes/misc/birch_cupboard": {
     "criteria": {
       "has_birch_cupboard": "2025-03-03 05:35:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/birch_planks": {
-    "criteria": {
-      "has_logs": "2025-03-03 05:35:33 +0000"
     },
     "done": true
   },
@@ -5385,6 +5390,200 @@
   "minecraft:recipes/redstone/birch_pressure_plate": {
     "criteria": {
       "has_planks": "2025-03-03 05:35:38 +0000"
+    },
+    "done": true
+  },
+  "jcraft:recipes/misc/stand_disc": {
+    "criteria": {
+      "has_arrow": "2025-03-03 06:56:55 +0000"
+    },
+    "done": true
+  },
+  "jcraft:recipes/misc/living_arrow": {
+    "criteria": {
+      "has_arrow": "2025-03-03 06:56:55 +0000"
+    },
+    "done": true
+  },
+  "jcraft:recipes/misc/requiem_arrow": {
+    "criteria": {
+      "has_arrow": "2025-03-03 06:56:55 +0000"
+    },
+    "done": true
+  },
+  "jcraft:obtain_stand_arrow": {
+    "criteria": {
+      "has_arrow": "2025-03-03 06:56:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-03-03 06:59:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-03-03 06:59:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-03-03 06:59:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-03-03 06:59:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-03-03 06:59:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-03-03 06:59:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2025-03-03 06:59:36 +0000"
+    },
+    "done": true
+  },
+  "explorerscompass:explorers_compass": {
+    "criteria": {
+      "has_recipe": "2025-03-03 06:59:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2025-03-03 06:59:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_tag": "2025-03-03 06:59:36 +0000"
+    },
+    "done": true
+  },
+  "explorerscompass:explorers_compass_cobweb": {
+    "criteria": {
+      "has_recipe": "2025-03-03 06:59:36 +0000"
+    },
+    "done": true
+  },
+  "explorerscompass:explorers_compass_cracked_stone_bricks": {
+    "criteria": {
+      "has_cracked_stone_bricks": "2025-03-03 06:59:36 +0000"
+    },
+    "done": true
+  },
+  "slashblade_addon:recipes/combat/slashblade_tofu_metal": {
+    "criteria": {
+      "has_slashblade_wood": "2025-03-03 07:01:04 +0000"
+    },
+    "done": true
+  },
+  "slashblade:recipes/combat/slashblade_bamboo": {
+    "criteria": {
+      "has_slashblade_wood": "2025-03-03 07:01:04 +0000",
+      "has_the_recipe": "2025-03-03 07:01:04 +0000"
+    },
+    "done": true
+  },
+  "slashblade:recipes/combat/orotiagito_sealed": {
+    "criteria": {
+      "has_proudsoul": "2025-03-03 07:01:04 +0000"
+    },
+    "done": true
+  },
+  "slashblade:recipes/combat/agito": {
+    "criteria": {
+      "has_proudsoul": "2025-03-03 07:01:04 +0000"
+    },
+    "done": true
+  },
+  "slashblade:recipes/combat/tagayasan": {
+    "criteria": {
+      "has_slashblade_wood": "2025-03-03 07:01:04 +0000"
+    },
+    "done": true
+  },
+  "slashblade:recipes/combat/slashblade_white": {
+    "criteria": {
+      "has_slashblade_wood": "2025-03-03 07:01:04 +0000",
+      "has_the_recipe": "2025-03-03 07:01:04 +0000"
+    },
+    "done": true
+  },
+  "slashblade_addon:recipes/combat/fluorescent_bar": {
+    "criteria": {
+      "has_proudsoul": "2025-03-03 07:01:04 +0000"
+    },
+    "done": true
+  },
+  "slashblade:blade/s_wood": {
+    "criteria": {
+      "crafting": "2025-03-03 07:01:04 +0000"
+    },
+    "done": true
+  },
+  "slashblade_addon:recipes/combat/slashblade_tofu_ishi": {
+    "criteria": {
+      "has_slashblade_wood": "2025-03-03 07:01:04 +0000"
+    },
+    "done": true
+  },
+  "slashblade:abilities/trick_dodge": {
+    "criteria": {
+      "customtrigger": "2025-03-03 07:43:19 +0000"
+    },
+    "done": true
+  },
+  "vinery:main/crop_collector": {
+    "criteria": {
+      "vinery:white_grape_seeds": "2025-03-03 07:39:10 +0000"
+    },
+    "done": false
+  },
+  "slashblade:abilities/kick_jump": {
+    "criteria": {
+      "customtrigger": "2025-03-03 07:44:10 +0000"
+    },
+    "done": true
+  },
+  "vinery:main/wild_crops": {
+    "criteria": {
+      "white_grape_seeds": "2025-03-03 07:39:10 +0000"
+    },
+    "done": true
+  },
+  "graveyard:graveyard/root": {
+    "criteria": {
+      "grave_01": "2025-03-03 07:46:09 +0000"
+    },
+    "done": true
+  },
+  "vinery:recipes/white_grape_bag": {
+    "criteria": {
+      "has_white_grape": "2025-03-03 07:39:04 +0000"
+    },
+    "done": true
+  },
+  "slashblade:recipes/combat/slashblade_wood": {
+    "criteria": {
+      "has_wooden_sword": "2025-03-03 07:41:52 +0000"
     },
     "done": true
   },
