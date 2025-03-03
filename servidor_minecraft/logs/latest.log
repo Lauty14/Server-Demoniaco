@@ -939,3 +939,23 @@ java.lang.ClassNotFoundException: net.arna.jcraft.client.rendering.api.MultiInst
 [03Mar2025 20:00:08.272] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:stone_golem but it was marked as removed already
 [03Mar2025 20:00:21.319] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:stone_golem but it was marked as removed already
 [03Mar2025 20:00:21.319] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:stone_golem but it was marked as removed already
+[03Mar2025 20:07:18.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ccarlos2 has made the advancement [Into Fire]
+[03Mar2025 20:07:47.220] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:stone_golem but it was marked as removed already
+[03Mar2025 20:09:17.771] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:stone_golem but it was marked as removed already
+[03Mar2025 20:09:23.719] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:stone_golem but it was marked as removed already
+[03Mar2025 20:09:45.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ccarlos2 was slain by Crimson Mosquito
+[03Mar2025 20:09:56.341] [Server thread/WARN] [jcraft/]: Prevented stopRiding() call for recently created PurpleHazeEntity['Purple Haze'/4149, l='ServerLevel[world]', x=-553.30, y=68.88, z=-189.60]
+[03Mar2025 20:09:56.342] [Server thread/WARN] [jcraft/]: Prevented stopRiding() call for recently created PurpleHazeEntity['Purple Haze'/4149, l='ServerLevel[world]', x=-553.30, y=68.88, z=-189.60]
+[03Mar2025 20:09:56.504] [Server thread/WARN] [jcraft/]: Prevented stopRiding() call for recently created HGEntity['entity.jcraft.hierophant_green'/4158, l='ServerLevel[world]', x=-563.82, y=118.00, z=-99.46]
+[03Mar2025 20:09:56.505] [Server thread/WARN] [jcraft/]: Prevented stopRiding() call for recently created HGEntity['entity.jcraft.hierophant_green'/4158, l='ServerLevel[world]', x=-563.82, y=118.00, z=-99.46]
+[03Mar2025 20:10:19.892] [Server thread/WARN] [jcraft/]: Prevented stopRiding() call for recently created PurpleHazeEntity['Purple Haze'/4222, l='ServerLevel[world]', x=-643.45, y=50.00, z=-19.82]
+[03Mar2025 20:10:19.892] [Server thread/WARN] [jcraft/]: Prevented stopRiding() call for recently created PurpleHazeEntity['Purple Haze'/4222, l='ServerLevel[world]', x=-643.45, y=50.00, z=-19.82]
+[03Mar2025 20:10:26.420] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:stone_golem but it was marked as removed already
+[03Mar2025 20:10:28.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ccarlos2 was slain by Crimson Mosquito
+[03Mar2025 20:11:17.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ccarlos2 was slain by Crimson Mosquito
+[03Mar2025 20:12:25.771] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:stone_golem but it was marked as removed already
+[03Mar2025 20:12:40.388] [Server thread/WARN] [jcraft/]: Prevented stopRiding() call for recently created PurpleHazeEntity['Purple Haze'/5439, l='ServerLevel[world]', x=-655.72, y=76.88, z=-92.34]
+[03Mar2025 20:12:40.389] [Server thread/WARN] [jcraft/]: Prevented stopRiding() call for recently created WhiteSnakeEntity['Whitesnake'/5440, l='ServerLevel[world]', x=-662.99, y=37.88, z=-78.64]
+[03Mar2025 20:12:40.389] [Server thread/WARN] [jcraft/]: Prevented stopRiding() call for recently created WhiteSnakeEntity['Whitesnake'/5440, l='ServerLevel[world]', x=-662.99, y=37.88, z=-78.64]
+[03Mar2025 20:12:40.433] [Server thread/WARN] [jcraft/]: Prevented stopRiding() call for recently created PurpleHazeEntity['Purple Haze'/5439, l='ServerLevel[world]', x=-655.72, y=76.88, z=-92.34]
+[03Mar2025 20:12:52.271] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity ancient_elements:stone_golem but it was marked as removed already
